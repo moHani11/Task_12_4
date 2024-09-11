@@ -7,4 +7,6 @@
 > The simulation works for a single motor that we can move in a straight line forward and backward, The motor poistion along that line is printed in the serial monitor through out the whole silmulation.  
 > The simulation uses the PID class i have made so it takes the **Desired position for the wheel along that line** and **contorl the speed of the motor** so it can reach its goal.
 
+> note that the PID takes the reading of the motor speed using an encoder and changes the speed by giving an analog output to the DC motor's terminal.
+
 ## Please check the [Simulation](https://www.tinkercad.com/things/l00wzgc9zWO-task124/editel?sharecode=rvrHSY2OLCj_S2QwP4gEDvTWiI93vctvOwt6TID9x2g)
